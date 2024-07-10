@@ -476,3 +476,94 @@ iframe {
     font-weight: 700;
     text-decoration-line: underline;
 }
+
+/* support styles */
+.support-container {
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/assets/handshake.jpg");
+}
+
+.support-container .support-content {
+    width: 1044px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.support-container .support-content .section-1 {
+    width: 730px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-container .support-content .section-1 .support-title {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support-container .support-content .section-1 .support-description {
+    color: #B7B4B3;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.support-container .support-content .section-2 {
+    width: 684px;
+    height: 57px;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 24px;
+}
+
+.support-container .support-content .section-2 .support-input {
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+}
+
+.support-container .support-content .section-2 .support-input::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.support-container .support-content .section-2 .support-submit {
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+}
