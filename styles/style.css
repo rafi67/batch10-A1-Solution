@@ -261,9 +261,218 @@ nav ul .nav-btn {
     margin-top: 48px;
 }
 
-.inspiration-container .inspiration-video-container .inspiration-video-content, iframe {
+.inspiration-container .inspiration-video-container .inspiration-video-content,
+iframe {
     width: 1076px;
     height: 550px;
     align-self: stretch;
     border-radius: 16px;
+}
+
+/* target styles */
+.target-container {
+    width: 1140px;
+    height: 1437px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 151px;
+}
+
+.target-container .current-target-container {
+    width: 1140px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.target-container .current-target-content {
+    width: 946px;
+    height: 113px;
+}
+
+.target-container .current-target-content .current-target-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.target-container .current-target-content .current-target-description {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.target-container .current-target-card-container {
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.target-container .current-target-card-container .card {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+}
+
+.target-container .current-target-card-container .card .card-content {
+    width: 284px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px auto;
+}
+
+.target-container .current-target-card-container .card .card-content img {
+    width: 56px;
+    height: 56px;
+}
+
+.target-container .current-target-card-container .card .card-content .card-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+
+.target-container .current-target-card-container .card .card-content .card-description {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.target-container .current-target-card-container .card .card-content .content-link {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 24px;
+}
+
+.card-bg-primary {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.card-bg-secondary {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.card-bg-tertiary {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.target-container .next-target-container {
+    width: 1140px;
+    height: 866px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 111px;
+}
+
+.target-container .next-target-container .next-target-content {
+    width: 946px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.target-container .next-target-container .next-target-content .next-target-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.target-container .next-target-container .next-target-content .next-target-description {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.target-container .next-target-container .next-target-details-container {
+    width: 100%;
+    height: 219px;
+    display: flex;
+    margin-top: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+
+.target-container .next-target-container .next-target-details-container .next-target-details-content {
+    width: 1060px;
+    height: 139px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+.target-container .next-target-container .next-target-details-container .next-target-details-content .next-target-details-section-1 {
+    width: 94.78px;
+    height: 84.41px;
+}
+
+.target-container .next-target-container .next-target-details-container .next-target-details-content .next-target-details-section-1 img {
+    width: 94.78px;
+    height: 84.41px;
+    /* margin: 24px; */
+}
+
+.target-container .next-target-container .next-target-details-container .next-target-details-content .next-target-details-section-2 {
+    width: 941.22px;
+    height: 139px;
+}
+
+.target-container .next-target-container .next-target-details-container .next-target-details-content .next-target-details-section-2 .next-target-details-content-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.target-container .next-target-container .next-target-details-container .next-target-details-content .next-target-details-section-2 .next-target-details-content-description {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.target-container .next-target-container .next-target-details-container .next-target-details-content .next-target-details-section-2 .next-target-details-content-link {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
