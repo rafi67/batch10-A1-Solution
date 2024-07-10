@@ -43,7 +43,7 @@ nav ul .nav-btn {
 .banner-container {
     width: 1511px;
     height: 652px;
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url("assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -489,7 +489,7 @@ iframe {
     align-items: center;
     border-radius: 16px;
     margin-bottom: 80px;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/assets/handshake.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/handshake.jpg");
 }
 
 .support-container .support-content {
