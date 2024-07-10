@@ -108,7 +108,6 @@ nav ul .nav-btn {
 
 .web-development-container .web-development-details {
     padding: 80px 97px;
-    border: 2px solid blue;
 }
 
 .web-development-container .web-development-details .web-development-objective h1 {
@@ -139,7 +138,6 @@ nav ul .nav-btn {
     align-items: center;
     padding: 48px;
     margin-top: 48px;
-    border: 2px solid red;
 }
 
 .web-development-container .web-development-details .box-model:nth-child(3) {
